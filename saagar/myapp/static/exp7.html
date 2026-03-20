@@ -1,31 +1,3 @@
-# Ex.07 Design of Interactive Image Gallery
-## Date:20.03.2026
-
-## AIM:
-To design a web application for an inteactive image gallery for a minimum five images with next and previous buttons.
-
-## DESIGN STEPS:
-
-### Step 1:
-Clone the github repository and create Django admin interface.
-
-### Step 2:
-Change settings.py file to allow request from all hosts.
-
-### Step 3:
-Use CSS for positioning and styling.
-
-### Step 4:
-Write JavaScript program for implementing interactivity.
-
-### Step 5:
-Validate the HTML and CSS code.
-
-### Step 6:
-Publish the website in the given URL.
-
-## PROGRAM:
-```
 <html>
 <head>
     <title>Image Gallery</title>
@@ -73,7 +45,7 @@ Publish the website in the given URL.
             margin-top:12px;
         }
 
-        .a1{
+        .btn-box{
             margin-top:15px;
         }
 
@@ -91,7 +63,7 @@ Publish the website in the given URL.
             background-color:#3249a8;
         }
 
-        .down{
+        .bottom{
             background-color:#7e1c1c;
             color:white;
             text-align:center;
@@ -115,14 +87,14 @@ Publish the website in the given URL.
 
             <p id="caption">FAV PICS</p>
 
-            <div class="a1">
+            <div class="btn-box">
                 <button onclick="showPrevious()">Previous</button>
                 <button onclick="showNext()">Next</button>
             </div>
         </div>
     </div>
 
-    <div class="down">
+    <div class="bottom">
         SAAGAR S (25013937)
     </div>
 
@@ -168,8 +140,3 @@ Publish the website in the given URL.
 
 </body>
 </html>
-```
-## OUTPUT:
-![alt text](image.png)
-## RESULT:
-The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
